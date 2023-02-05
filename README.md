@@ -2,6 +2,10 @@
 
 Enables you to hide your API keys from clients.
 
+Other features:
+- rate limiting
+- caching GET requests
+
 -----------
 
 ## Quick start:
