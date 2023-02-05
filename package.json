@@ -1,0 +1,24 @@
+{
+  "name": "api-proxy",
+  "version": "1.0.0",
+  "description": "Proxy API calls from clients to API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@braintree/sanitize-url": "^6.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "mongoose": "^6.8.4",
+    "node-fetch": "^3.3.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
